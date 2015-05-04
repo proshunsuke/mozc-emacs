@@ -1,0 +1,84 @@
+status	key	command
+Precomposition	Ctrl Shift Space	InsertFullSpace
+Precomposition	Shift Muhenkan	ToggleAlphanumericMode
+Precomposition	Shift Space	InsertAlternateSpace
+Precomposition	Space	InsertSpace
+Precomposition	Backspace	Revert
+Composition	Backspace	Backspace
+Composition	Ctrl a	MoveCursorToBeginning
+Composition	Ctrl Backspace	Backspace
+Composition	Ctrl d	MoveCursorRight
+Composition	Ctrl e	MoveCursorToEnd
+Composition	Ctrl a	MoveCursorToBeginning
+Composition	Ctrl Enter	Commit
+Composition	Ctrl g	Delete
+Composition	Ctrl h	Backspace
+Composition	Ctrl i	ConvertToFullKatakana
+Composition	Ctrl b	MoveCursorLeft
+Composition	Ctrl f	MoveCursorRight
+Composition	Ctrl o	ConvertToHalfWidth
+Composition	Ctrl Space	InsertHalfSpace
+Composition	Ctrl Shift Space	InsertFullSpace
+Composition	Ctrl t	ConvertToHalfAlphanumeric
+Composition	Ctrl u	ConvertToHiragana
+Composition	Ctrl z	Cancel
+Composition	Delete	Delete
+Composition	Enter	Commit
+Composition	ESC	Cancel
+Composition	Left	MoveCursorLeft
+Composition	Right	MoveCursorRight
+Composition	Shift Backspace	Backspace
+Composition	Shift ESC	Cancel
+Composition	Shift Left	MoveCursorLeft
+Composition	Shift Right	MoveCursorRight
+Composition	Space	Convert
+Composition	Tab	PredictAndConvert
+Suggestion	Down	PredictAndConvert
+Suggestion	Shift Enter	CommitFirstSuggestion
+Conversion	Backspace	Cancel
+Conversion	Ctrl a	SegmentFocusFirst
+Conversion	Ctrl Backspace	Cancel
+Conversion	Ctrl Down	CommitOnlyFirstSegment
+Conversion	Ctrl Enter	Commit
+Conversion	Ctrl f	SegmentFocusRight
+Conversion	Ctrl g	Cancel
+Conversion	Ctrl h	Cancel
+Conversion	Ctrl i	SegmentWidthShrink
+Conversion	Ctrl k	SegmentWidthShrink
+Conversion	Ctrl l	SegmentWidthExpand
+Conversion	Ctrl Left	SegmentFocusFirst
+Conversion	Ctrl n	ConvertNext
+Conversion	Ctrl o	SegmentWidthExpand
+Conversion	Ctrl p	ConvertPrev
+Conversion	Ctrl Right	SegmentFocusLast
+Conversion	Ctrl b	SegmentFocusLeft
+Conversion	Ctrl Space	InsertHalfSpace
+Conversion	Ctrl Shift Space	InsertFullSpace
+Conversion	Ctrl t	ConvertToHalfAlphanumeric
+Conversion	Ctrl u	ConvertToHiragana
+Conversion	Ctrl Up	ConvertPrev
+Conversion	Ctrl z	Cancel
+Conversion	Delete	Cancel
+Conversion	Down	ConvertNext
+Conversion	End	SegmentFocusLast
+Conversion	Enter	Commit
+Conversion	ESC	Cancel
+Conversion	Home	SegmentFocusFirst
+Conversion	Left	SegmentFocusLeft
+Conversion	PageDown	ConvertNextPage
+Conversion	PageUp	ConvertPrevPage
+Conversion	Right	SegmentFocusRight
+Conversion	Shift Backspace	Cancel
+Conversion	Shift Down	ConvertNextPage
+Conversion	Shift ESC	Cancel
+Conversion	Shift Henkan	ConvertPrev
+Conversion	Shift Left	SegmentWidthShrink
+Conversion	Shift Muhenkan	ConvertToFullAlphanumeric
+Conversion	Shift Right	SegmentWidthExpand
+Conversion	Shift Space	ConvertPrev
+Conversion	Shift Up	ConvertPrevPage
+Conversion	Space	PredictAndConvert
+Conversion	Tab	PredictAndConvert
+Conversion	Up	ConvertPrev
+Conversion	Ctrl v	ConvertNextPage
+Conversion	Alt v	ConvertPrevPage
